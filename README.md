@@ -56,14 +56,16 @@ Run the application:
 mvn spring-boot:run
 ```
 Or run ExpenseTrackerApplication.java from your IDE.
-📮 API Endpoints Documentation
+
+### 📮 API Endpoints Documentation
 Method	Endpoint	Description
 GET	/api/expenses	Get all expenses
 GET	/api/expenses/{id}	Get expense by ID
 POST	/api/expenses	Create new expense
 PUT	/api/expenses/{id}	Update an existing expense
 DELETE	/api/expenses/{id}	Delete expense by ID
-✅ Testing Instructions
+
+### ✅ Testing Instructions
 Run unit tests using:
 ```
 mvn test
